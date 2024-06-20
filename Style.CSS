@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif ;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative ;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px ;
+    border-radius: 30px;
+    background-color: #f9004d;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize ;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.skills{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: whitesmoke;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    min-height: 400px;
+
+}
+.box{
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 76px 0px 55px ; 
+    margin: 15px; 
+    background: #191919;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    place-self: center;
+}
+.card i{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d ;
+}
+h5{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact-me a{
+    color: aqua;
+    text-align: center;
+    font-size: xx-large;
+    transition: 1s;
+}
+.contact-me a:hover{
+    color: gainsboro;
+}
+
+/* 
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+nav {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.hero {
+    background: #f4f4f4;
+    padding: 5%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero h3 {
+    font-size: 1.5em;
+}
+
+
+.about {
+    background: #fff;
+    padding: 5%;
+    text-align: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: 40%;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+
+.skills {
+    background: #f4f4f4;
+    padding: 5%;
+    text-align: center;
+}
+
+.card {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-me {
+    background: #333;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.contact-me a {
+    color: white;
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero, .about, .skills, .contact-me {
+        padding: 10%;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero h3 {
+        font-size: 1.2em;
+    }
+
+    .about h2 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
+*/
